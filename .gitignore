@@ -1,0 +1,20 @@
+# Documentos de salida: excluidos, salvo los llamados example
+*.pdf
+*.doc
+*.docx
+!example.pdf
+!example.doc
+!example.docx
+
+# Archivos de bloqueo de Word
+~$*
+
+# Artefactos de compilacion y caches de Python
+__pycache__/
+build/
+dist/
+*.spec
+.ruff_cache/
+
+# Estado local de herramientas de agente
+.atl/
