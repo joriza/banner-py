@@ -16,5 +16,8 @@ dist/
 *.spec
 .ruff_cache/
 
+# El ejecutable se publica en Releases, no en el repo
+*.exe
+
 # Estado local de herramientas de agente
 .atl/
