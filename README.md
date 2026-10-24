@@ -59,7 +59,6 @@ banner-portable.exe CARTA --rellena --espacios mantener --fuente rockwell
 | Archivo | Qué es |
 | --- | --- |
 | `banner-portable.py` | Fuente del programa portable |
-| `generar-banner-letras.py` | Generador inicial (versión simple, texto fijo) |
 | `compilar-banner-exe.bat` | Recompila el exe con PyInstaller |
 
 El ejecutable **no** se versiona en el repo: se publica en
